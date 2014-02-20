@@ -38,7 +38,7 @@ class Train( Transportation ):
       self.startcost = 0
       self.stations = stations
    def find_cost( self ):
-      return self.start+(self.stations*20)
+      return self.startcost+(self.stations*20)
   
 
 def main():
